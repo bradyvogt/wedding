@@ -46,9 +46,7 @@ const num_of_images = 223;
 // Function to update the background image
 function updateBackgroundImage() {
    var randomImageNumber = Math.floor(Math.random() * num_of_images);
-   // document.getElementById('randomBackgroundImage').style.backgroundImage = 'url(images/' + randomImageNumber + '.jpg)';
-   document.body.style.backgroundImage = 'url(images/' + randomImageNumber + '.jpg)';
-   // document.getElementById('randomBackgroundImage').textContent = 'url(images/' + randomImageNumber + '.jpg)';
+   document.body.style.backgroundImage = 'url(' + randomImageNumber + '.jpg)';
 }
 
 // Initial background image update when the page loads
