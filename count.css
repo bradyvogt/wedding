@@ -1,0 +1,53 @@
+/*Wedding Styles*/
+* {
+	text-align: center;
+	font-family: 'Brush Script MT', cursive;
+}
+
+#countdown {
+	width:50%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	min-width: 400px;
+}
+
+h1 {
+/*	font-size: 50px;*/
+	width: 50%;
+	margin: 2% auto 0px auto;
+	font-size: 5rem;
+}
+
+h2 {
+	font-size: 3rem;
+	margin: 0px auto;
+}
+
+span {
+	font-size: 2rem;
+}
+
+body {
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-color: #cef2cf;
+  	margin: 0; /* Remove default margin on the body */
+	padding: 0; /* Remove default padding on the body */
+	background-size: contain;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#countdownContainer {
+	background-color: white;
+	opacity: 88%;
+	margin: auto 10%;
+	min-width: 400px;
+}
+
+
+
