@@ -49,5 +49,24 @@ body {
 	min-width: 400px;
 }
 
+/* Mobile Only */
+@media only screen and (max-width: 768px) {
+  h1{
+  	font-size: 3rem;
+  }
+  h2{
+  	font-size: 2rem;
+  }
+  span {
+  	font-size: 1rem;
+  }
 
+  #countdownContainer {
+	min-width: 200px;
+  }
+  #countdown {
+  	min-width: 200px;
+  }
+  
+}
 
