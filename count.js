@@ -13,7 +13,7 @@ function runClock(){
 
 
    /* Calculate the days until November 23rd, 2024 */
-   var weddingDate = new Date(Date.UTC(24,11,23,21,0,0));
+   var weddingDate = new Date(Date.UTC(2024,11,23,21,0,0));
    var timeDiff = weddingDate - currentDay;
 
    const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
